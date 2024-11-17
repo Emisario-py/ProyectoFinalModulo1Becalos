@@ -3,10 +3,13 @@
 #imgReceta{
     border-radius: 5%;
     border: 5px solid violet;
+    height: 17vw;
 }
 
 p{
     text-align: center;
+    font-size: clamp(10px, 1vw, 25px);
+
 }
 
 body{
@@ -15,17 +18,36 @@ body{
     justify-items: center;
 }
 
+#ingredients-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#steps-container{
+    display: flex;
+    flex-direction: column;
+}
 #div-principal{
     display: flex;
     flex-direction: column;
     font-family: "Edu AU VIC WA NT Pre", cursive;
-    width: 30em;
+    width: clamp(42vw, 43vw, 70vw);
     background-color: thistle;
     align-items: center;
 }
 
+h1{
+    text-align: center;
+    font-size: clamp(11px, 2vw, 25px);
+}
 h2{
     text-align: center;
+    font-size: clamp(10px, 1.5vw, 25px);
+}
+
+li{
+    font-size: clamp(8px, 1vw, 25px);
+
 }
 
 main{
@@ -49,11 +71,11 @@ footer{
 }
 
 #logo{
-    height: 200px;
+    height: 15vw;
 }
 
 #logo-container{
-    height: 150px;
+    height: 12vw;
 }
 
 #nav-list{
@@ -64,7 +86,8 @@ footer{
 
 #nav-list li{
     font-weight: bold;
-    margin: 0 15px;
+    margin: 0 2vw;
+    font-size:clamp(2px, 1vw, 25px)
 }
 
 a{
@@ -76,5 +99,12 @@ a{
     1px -1px 0 black,  
     -1px 1px 0 black,  
     1px 1px 0 black;
+    font-size:clamp(5px, 1vw, 25px)
+
     ;
 }
+
+ol{
+    display: flex;
+    flex-direction: column;
+} 
