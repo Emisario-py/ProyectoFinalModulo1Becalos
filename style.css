@@ -16,10 +16,12 @@ body{
 }
 
 #div-principal{
+    display: flex;
+    flex-direction: column;
     font-family: "Edu AU VIC WA NT Pre", cursive;
     width: 50%;
     background-color: thistle;
-    justify-items: center;
+    align-items: center;
 }
 
 h2{
