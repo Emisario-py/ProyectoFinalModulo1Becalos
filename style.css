@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "Edu AU VIC WA NT Pre", cursive;
-    width: 50%;
+    width: 30em;
     background-color: thistle;
     align-items: center;
 }
