@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
 #imgReceta{
     border-radius: 5%;
     border: 5px solid violet;
@@ -9,8 +11,15 @@ p{
 
 body{
     display: block;
+    background-image: url("https://img.freepik.com/vector-gratis/elegante-patron-floral-transparente-decoracion-flores-suaves_44538-3199.jpg?semt=ais_hybrid");
     justify-items: center;
+}
+
+#div-principal{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    width: 50%;
     background-color: thistle;
+    justify-items: center;
 }
 
 h2{
